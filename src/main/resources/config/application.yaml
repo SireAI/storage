@@ -1,0 +1,21 @@
+
+spring:
+  profiles:
+    active: prod
+  output:
+    ansi:
+      enabled: detect
+
+Http:
+  maxTotal: 20
+  defaultMaxPerRoute: 20
+  connectTimeout: 30000   #单位ms
+  connectionRequestTimeout: 30000  #单位ms
+  socketTimeout: 30000  #单位ms
+  retryTime: 3
+
+
+    #文件存储根目录
+#        dir: /usr/storage   #文件存储根目录
+
+
