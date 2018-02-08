@@ -28,7 +28,7 @@ public class FileStorageController {
      * 文件上传
      * @param file  文件key
      * @param fileSize 文件大小
-     * @param fileDir  文件存储目录
+     * @param fileDir  文件存储目录,相当于分文件夹存储文件
      * @return
      * @throws IOException
      */
